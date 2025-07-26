@@ -1,0 +1,92 @@
+#wrapper #templateBody2 #left {
+	float: left;
+	height: 500px;
+	width: 650px;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#wrapper #templateBody2 #left #form1 table tr td #name2 {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+}
+#wrapper #templateBody2 #left #form1 table tr td #companyname {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#wrapper #templateBody2 #left #form1 table tr td #email {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#wrapper #templateBody2 #left #form1 table tr td #areacode {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#wrapper #templateBody2 #left #form1 table tr td #firstthree {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#wrapper #templateBody2 #left #form1 table tr td #lastfour {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#wrapper #templateBody2 #left #form1 table tr td #verification {
+	height: 30px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#wrapper #templateBody2 #left #form1 table tr td #message {
+	height: 250px; width: 400px;
+	border-top-left-radius: 5px ;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.detail {
+	height: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #EAEAEA;
+}
+.detail:focus {
+	background-color: #FEEDED;
+	outline: none;
+}
+.mess {
+	height: 150px;
+	width: 400px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #EAEAEA;
+	
+}
+.mess:focus {
+	outline: none;
+	background-color: #FEF1F1;
+}

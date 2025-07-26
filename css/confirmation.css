@@ -1,0 +1,15 @@
+.conftext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 24px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #0A0032;
+	text-align: center;
+}
+#wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}

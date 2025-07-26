@@ -1,0 +1,141 @@
+/* Base styles */
+#wrapper #templateBody #left {
+    float: left;
+    height: auto; /* Let height adjust */
+    width: 660px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+
+.heading {
+  display: flex;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #9F1D25;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.footerFont {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: normal;
+    font-variant: normal;
+    color: #333;
+    padding-top: 10px;
+}
+
+#wrapper #templateBody #left #top {
+    height: auto;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-bottom: 1px dotted #7B0406;
+    box-sizing: border-box;
+}
+
+#wrapper #templateBody #left #bls {
+    float: left;
+    height: auto;
+    width: 318px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px dotted #7D0608;
+    box-sizing: border-box;
+}
+
+#wrapper #templateBody #left #als {
+    float: right;
+    height: auto;
+    width: 328px;
+    padding-left: 2px;
+    box-sizing: border-box;
+}
+
+.maintext2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 40px;
+    font-weight: normal;
+    font-variant: normal;
+    color: #333;
+    width: 100%; /* Ensures it fits its container */
+    max-width: 1000px; /* Optional: limit line length */
+    box-sizing: border-box; /* Include padding in width */
+    margin: 0 auto; /* Center if narrower than parent */
+}
+
+
+/* Clear floats */
+#wrapper #templateBody #left::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #wrapper #templateBody #left {
+        width: 100%;
+        padding: 10px;
+    }
+    #wrapper #templateBody #left #bls,
+    #wrapper #templateBody #left #als {
+        float: none;
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .heading {
+        font-size: 20px;
+        line-height: 80px;
+        padding-left: 50px;
+    }
+    .maintext2 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .heading {
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 25px;
+    }
+    .maintext2 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+#header2 {
+  width: 100%; /* container takes full width */
+  max-width: 960px; /* optional max width to keep the design */
+  margin: 0 auto; /* center the container */
+}
+
+#header2 img {
+  width: 100%;  /* image scales to container width */
+  height: auto; /* keep aspect ratio */
+  display: block; /* remove inline gap below image */
+  max-height: 102px; /* optional max height, keep it consistent */
+  object-fit: cover; /* optional, ensures image covers area nicely */
+}
+
+.banner-img {
+  width: 100%;
+  max-height: 250px; /* Adjust as needed */
+  object-fit: cover;
+  object-position: bottom;
+  display: block;
+  margin-bottom: 15px;
+  opacity: 50%;
+}

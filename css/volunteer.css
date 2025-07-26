@@ -1,0 +1,38 @@
+#wrapper #templateBody2 #left {
+	float: left;
+	height: 600px;
+	width: 650px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+
+.maintext2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+}
+
+#wrapper #templateBody2 #left div {
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.heading {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 35px;
+	font-weight: bold;
+	color: #9F1D25;
+	margin-bottom: 0px;
+	background-image: url(../images/main_images/medsym.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 40px;
+}

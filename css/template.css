@@ -1,0 +1,249 @@
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background: url(../images/bg/emvrsBGmainBG.jpg) no-repeat 50% top;
+	background: url(../images/bg/emvrsBGmainBG.jpg) no-repeat 50% top, url(../images/bg/emvrsrepeatBG.jpg) repeat-x;
+	background-color: #f2f2f2
+	
+	
+}
+
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#wrapper #header {
+	height: 174px;
+	width: 960px;
+	background-image: url(../images/main_images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#wrapper #header #rightHeader {
+	width: 160px;
+	float: right;
+	height: 24px;
+	padding-bottom: 150px;
+	padding-right: 100px;
+}
+#wrapper #header #leftHeader {
+	float: left;
+	width: 700px;
+	height: 174px;
+}
+
+
+#wrapper #menu {
+	height: 34px;
+	width: 960px;
+}
+#wrapper #slider {
+	height: 311px;
+	width: 960px;
+}
+#wrapper #templateBody {
+	height: 600px;
+	width: 960px;
+}
+#footer {
+	background-color: #600;
+	height: 300px;
+	width: 100%;
+	clear: both;
+	background-image: url(../images/bg/footerrepeat.jpg);
+}
+#footer #centerFooter {
+	height: 280px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/bg/footerbg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #600;
+	padding-top: 20px;
+}
+#footer #centerFooter #leftFooter {
+	float: left;
+	height: 280px;
+	width: 320px;
+}
+#footer #centerFooter #centerFooter2 {
+	float: left;
+	height: 280px;
+	width: 320px;
+}
+#footer #centerFooter #rightFooter {
+	float: right;
+	height: 280px;
+	width: 320px;
+}
+#footer #centerFooter #centerFooter2 #centerFooterTop {
+	height: 25px;
+	width: 320px;
+	padding-top: 100px;
+}
+#footer #centerFooter #centerFooter2 #centerFooterTop div a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #CF9;
+	text-decoration: none;
+}
+#footer #centerFooter #centerFooter2 #centerFooterTop div a:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #CF0;
+	text-decoration: none;
+}
+#footer #centerFooter #leftFooter a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #CCC;
+	text-decoration: none;
+}
+#footer #centerFooter #leftFooter a:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #06F;
+	text-decoration: none;
+}
+
+
+#footer #centerFooter #centerFooter2 #centerFooterBottom {
+	height: 160px;
+	width: 320px;
+}
+
+#wrapper #templateBody #left {
+	float: left;
+}
+#wrapper #templateBody #right {
+	float: right;
+	height: 550px;
+	width: 300px;
+	text-align: center;
+	background-image: url(../images/bg/squad157CROP.jpg);
+	background-repeat: no-repeat;
+	background-position: center 50px;
+}
+#wrapper #templateBody #right #donate {
+	height: 310px;
+	width: 270px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#wrapper #templateBody #right #donate div {
+	text-align: center;
+}
+
+#wrapper #templateBody #right #volunteer {
+	height: 290px;
+	width: 290px;
+	padding-top: 10px;
+	background-repeat: no-repeat;
+	background-position: center 80px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#wrapper #templateBody #right #volunteer div a{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #6E0001;
+	text-decoration: none;
+}
+#wrapper #templateBody #right #volunteer div a:hover{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #F00;
+	text-decoration: none;
+}
+.maintext {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+}
+.pdflinks {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #921A1B;
+}
+.ems {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	color: #9D1F22;
+	text-align: center;
+	padding: 0px;
+}
+.maintext3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+	text-align: center;
+}
+#wrapper #header #rightHeader a:hover {
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #0001A1;
+}
+#wrapper #header #rightHeader a {
+	font-family: Tahoma, Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #9D1F22;
+}
+
+
+
+
+
+.footerFont {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #CCC;
+}
