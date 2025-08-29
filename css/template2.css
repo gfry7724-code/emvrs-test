@@ -245,3 +245,88 @@ nav a:hover {
   user-select: none;
   text-align: center;
 }
+
+/* Container for the two application sections, aligned with main content width */
+.apply-container {
+  display: flex;
+  gap: 20px;                   /* space between the boxes */
+  flex-wrap: wrap;             /* allow wrapping on small screens */
+  margin-top: 20px;
+  max-width: 1000px;            /* match #wrapper #templateBody #left width */
+  margin-left: auto;           /* center container */
+  margin-right: auto;
+}
+
+/* Individual application boxes */
+.apply-box {
+  flex: 1;                     /* each box takes equal width */
+  min-width: 280px;            /* prevents boxes from shrinking too much */
+  min-height: 300px;           /* ensures the boxes are visually longer */
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ccc;      /* subtle border */
+  border-radius: 8px;          /* rounded corners */
+  background-color: #fff;      /* white background */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);  /* subtle shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* content starts at top for better readability */
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 768px) {
+  .apply-container {
+    flex-direction: column;
+    max-width: 100%;           /* let container shrink to mobile width */
+  }
+
+  .apply-box {
+    width: 100%;               /* fill the container */
+    min-height: auto;          /* allow height to shrink naturally */
+  }
+}
+
+/* Card header (burgundy with white text) */
+.apply-box-header {
+  background-color: #9F1D25; /* burgundy */
+  color: white;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px 8px 0 0; /* round top corners only */
+  white-space: nowrap;          /* forces heading on one line */
+  overflow: hidden;
+  text-overflow: ellipsis;      /* truncate if very long */
+}
+
+/* Card content stays the same */
+.apply-box-content {
+  padding: 20px;
+  flex: 1;                     /* fill remaining card space */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+
+.donate-button {
+  background-color: #9F1D25; /* burgundy */
+  color: white;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.donate-button:hover {
+  background-color: white;
+  color: #9F1D25;
+  border: 2px solid #9F1D25;
+}
